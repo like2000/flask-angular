@@ -14,13 +14,25 @@ h2, h3 {
   font-weight: lighter;
 }
 
+html {
+  height: 100%;
+  /*background: #444;*/
+}
+
 body {
-  margin: 2em;
+  height: 100%;
+  overflow: auto;
+  margin-left: 10%;
+  padding-left: 5%;
+  margin-right: 10%;
+  padding-right: 5%;
+  border-left: solid 2px darkgrey;
+  border-right: solid 2px darkgrey;
 }
 
 body, input[type="text"], button {
   color: #333;
-  font-family: Cambria, Georgia;
+  font-family: Cambria, Georgia, serif;
 }
 
 /* everywhere else */

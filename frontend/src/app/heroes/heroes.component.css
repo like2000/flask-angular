@@ -1,30 +1,48 @@
-/*.heroes {*/
-/*  padding: 0;*/
-/*  width: 15em;*/
-/*  list-style-type: none;*/
-/*}*/
+/* HeroesComponent's private CSS styles */
+.heroes {
+  padding: 0;
+  width: 15em;
+  /*margin: 0 0 2em 0;*/
+  list-style-type: none;
+}
 
 /*.heroes li {*/
-/*  left: 0;*/
 /*  height: 2em;*/
-/*  padding: 3em;*/
 /*  cursor: pointer;*/
-/*  position: relative;*/
+/*  margin: 0 0 1em 0;*/
+/*  padding: 0 2em 0 0;*/
 /*  border-radius: 4px;*/
-/*  background-color: #EEE;*/
+/*  position: relative;*/
+/*  background-color: #aaa;*/
+/* }*/
+
+/*.heroes li:hover {*/
+/*  color: #607D8B;*/
+/*  background-color: #DDD;*/
+/*  left: .1em;*/
 /*}*/
 
-/*.heroes .badge {*/
-/*  display: inline-block;*/
-/*  font-size: small;*/
+/*.heroes li.selected {*/
 /*  color: white;*/
-/*  padding: 0.8em 0.7em 0 0.7em;*/
-/*  background-color:#405061;*/
-/*  line-height: 1em;*/
-/*  position: relative;*/
-/*  left: -1px;*/
-/*  top: -4px;*/
-/*  height: 1.8em;*/
-/*  margin-right: .8em;*/
-/*  border-radius: 4px 0 0 4px;*/
+/*  background-color: #CFD8DC;*/
 /*}*/
+
+/*.heroes li.selected:hover {*/
+/*  background-color: #BBD8DC;*/
+/*  color: white;*/
+/*}*/
+
+.heroes .badge {
+  display: inline-block;
+  /*font-size: small;*/
+  color: white;
+  padding: 1em 1em 0 1em;
+  /*margin: -1em 0 0 -1em;*/
+  /*left: -1.2em;*/
+  /*top: -.8em;*/
+  height: 100%;
+  /*line-height: 1em;*/
+  position: relative;
+  background-color: #405061;
+  border-radius: 4px 0 0 4px;
+}

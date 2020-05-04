@@ -7,8 +7,8 @@
 </div>
 
 <ul class="heroes">
-  <li *ngFor="let hero of heroes_list" (click)="onSelect(hero)" [class.selected]="hero === selectedHero" class="w3- blue w3-button w3-margin w3-round" style="width: 15em; height: 3em; display: block;">
-    <span class="w3-badge" style="left: 0">{{hero.id}}</span> {{hero.name}}
+  <li *ngFor="let hero of heroesList" (click)="onSelect(hero)" [class.selected]="hero === selectedHero" class="w3-button w3-border w3-border-blue w3-round-large w3-left-align w3-margin-bottom" style="width: 20em;">
+    <div class="w3-tag w3-blue-gray w3-half w3-margin-right" style="height: 100%">{{hero.id}}</div> {{hero.name}}
   </li>
 </ul>
 
