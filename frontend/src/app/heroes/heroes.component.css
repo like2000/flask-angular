@@ -1,0 +1,30 @@
+/*.heroes {*/
+/*  padding: 0;*/
+/*  width: 15em;*/
+/*  list-style-type: none;*/
+/*}*/
+
+/*.heroes li {*/
+/*  left: 0;*/
+/*  height: 2em;*/
+/*  padding: 3em;*/
+/*  cursor: pointer;*/
+/*  position: relative;*/
+/*  border-radius: 4px;*/
+/*  background-color: #EEE;*/
+/*}*/
+
+/*.heroes .badge {*/
+/*  display: inline-block;*/
+/*  font-size: small;*/
+/*  color: white;*/
+/*  padding: 0.8em 0.7em 0 0.7em;*/
+/*  background-color:#405061;*/
+/*  line-height: 1em;*/
+/*  position: relative;*/
+/*  left: -1px;*/
+/*  top: -4px;*/
+/*  height: 1.8em;*/
+/*  margin-right: .8em;*/
+/*  border-radius: 4px 0 0 4px;*/
+/*}*/

@@ -1,6 +1,8 @@
+from flask import render_template
+
 from flask_angular.home import blueprint
 
 
-@blueprint.home("/")
+@blueprint.route("/")
 def home():
-    return "Hello Kevin!"
+    return render_template("index.html")
