@@ -6,9 +6,13 @@
   </label>
 </div>
 
+<br><br>
+
 <ul class="heroes">
-  <li *ngFor="let hero of heroesList" (click)="onSelect(hero)" [class.selected]="hero === selectedHero" class="w3-button w3-border w3-border-blue w3-round-large w3-left-align w3-margin-bottom" style="width: 20em;">
-    <div class="w3-tag w3-blue-gray w3-half w3-margin-right" style="height: 100%">{{hero.id}}</div> {{hero.name}}
+  <li *ngFor="let hero of heroesList" (click)="onSelect(hero)" [class.selected]="hero === selectedHero"
+      class="w3-button w3-border w3-border-blue w3-round-large w3-left-align w3-margin-bottom w3-margin-right" style="width: 200px; height: 3em; padding: 0; vertical-align: middle;">
+    <div class="w3-tag w3-blue-gray w3-half w3-margin-right" style="height: 100%; border-radius: 4px 0 0 4px;">{{hero.id}}</div>
+    {{hero.name}}
   </li>
 </ul>
 
@@ -17,3 +21,5 @@
   <div>Id: {{selectedHero.id}}</div>
   <div>Name: {{selectedHero.name}}</div>
 </div>
+
+<br><br>
