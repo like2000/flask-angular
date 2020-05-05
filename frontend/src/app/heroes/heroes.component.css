@@ -1,24 +1,35 @@
 /* HeroesComponent's private CSS styles */
 .heroes {
   padding: 0;
-  width: 500px;
+  width: 650px;
   margin: auto;
   align-content: center;
-  /*margin: 0 0 2em 0;*/
   list-style-type: none;
 }
 
 .heroes li {
-  height: 2em;
+  padding: 0;
+  height: 60px;
+  width: 300px;
+  margin: auto;
   cursor: pointer;
+  border-radius: 16px;
   display: inline-block;
-  vertical-align: middle;
-/*  margin: 0 0 1em 0;*/
-/*  padding: 0 2em 0 0;*/
-/*  border-radius: 4px;*/
-/*  position: relative;*/
-/*  background-color: #aaa;*/
- }
+  border: solid 2px darkslategray;
+  /*  vertical-align: middle;*/
+  /*  !*transform: translate(-50%, -50%);*!*/
+  /*  !*  margin: 0 0 1em 0;*!*/
+  /*  !*  padding: 0 2em 0 0;*!*/
+  /*  !*  border-radius: 4px;*!*/
+  /*  !*  position: relative;*!*/
+  /*  !*  background-color: #aaa;*!*/
+}
+
+.heroes .batch {
+  color: white;
+  padding-top: 5%;
+  background: lightslategray;
+}
 
 /*.heroes li:hover {*/
 /*  color: #607D8B;*/
@@ -26,27 +37,12 @@
 /*  left: .1em;*/
 /*}*/
 
-/*.heroes li.selected {*/
-/*  color: white;*/
-/*  background-color: #CFD8DC;*/
-/*}*/
+.heroes li.selected {
+  color: black;
+  background-color: lavender;
+}
 
 /*.heroes li.selected:hover {*/
 /*  background-color: #BBD8DC;*/
 /*  color: white;*/
-/*}*/
-
-/*.heroes .badge {*/
-/*  display: inline-block;*/
-/*  !*font-size: small;*!*/
-/*  color: white;*/
-/*  padding: 1em 1em 0 1em;*/
-/*  !*margin: -1em 0 0 -1em;*!*/
-/*  !*left: -1.2em;*!*/
-/*  !*top: -.8em;*!*/
-/*  height: 100%;*/
-/*  !*line-height: 1em;*!*/
-/*  position: relative;*/
-/*  background-color: #405061;*/
-/*  border-radius: 4px 0 0 4px;*/
 /*}*/
