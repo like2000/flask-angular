@@ -1,6 +1,7 @@
 /* HeroesComponent's private CSS styles */
 .heroes {
   padding: 0;
+  /*width: 100%;*/
   width: 650px;
   margin: auto;
   align-content: center;
